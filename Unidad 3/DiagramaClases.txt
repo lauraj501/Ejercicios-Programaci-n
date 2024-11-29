@@ -1,0 +1,44 @@
++------------------+
+|      Libro       |
++------------------+
+| - titulo: String |
+| - autor: String  |
+| - ISBN: String   |
+| - disponibilidad: boolean |
++------------------+
+| + prestar()      |
+| + devolver()     |
++------------------+
+
++---------------------+
+|    Bibliotecario    |
++---------------------+
+| - nombre: String    |
+| - id_empleado: int  |
++---------------------+
+| + agregarLibro()    |
+| + eliminarLibro()   |
+| + gestionarUsuario() |
++---------------------+
+
++------------------+
+|      Usuario     |
++------------------+
+| - nombre: String |
+| - id_usuario: int|
+| - tipo_usuario: String |
++------------------+
+| + registrar()     |
+| + solicitarPrestamo() |
++------------------+
+
++------------------+
+|      Prestamo    |
++------------------+
+| - fecha_prestamo: Date |
+| - fecha_devolucion: Date |
+| - libro: Libro    |
+| - usuario: Usuario |
++------------------+
+| + calcularMulta() |
++------------------+
